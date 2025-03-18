@@ -7,6 +7,8 @@
   "routes": [
 	    { "src": "/",  "dest": "/api/index.php" },
 	 	{ "src": "/support.php",  "dest": "/api/support.php" },
+	 	{ "src": "/header.php",  "dest": "/api/support.php" },
+	 	{ "src": "/footer.php",  "dest": "/api/support.php" },
 	 	{ "src": "/js/script.js",  "dest": "/js/script.js" },
 		{ "src": "/css/style.css",  "dest": "/css/style.css" },
 		{ "src": "/images/365.png",  "dest": "/images/365.png" },
@@ -16,7 +18,7 @@
 		{ "src": "/images/co-pilot.jpg",  "dest": "/images/co-pilot.jpg" },
 		{ "src": "/images/cocreator.jpg",  "dest": "/images/cocreator.jpg" },
 		{ "src": "/images/Content-Card-Azure-AI-Bloom.jpeg",  "dest": "/images/Content-Card-Azure-AI-Bloom.jpeg" },
-		{ "src": "/images/Content-Card-Copilot-Commercial.jpeg",  "dest": "/images/Content-Card-Copilot-Commercial.jpeg" },
+		{ "src": "/images/Content-Card-Copilot-Commercial.jpeg",  "dest": "/images/Content-Card-Copilot-Commercial.jpeg" }
 		
 
 	]
