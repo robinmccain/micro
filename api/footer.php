@@ -100,7 +100,7 @@
                     <a href="">Terms of Use</a>
                     <a href="">Trademarks</a>
                     <a href="">About our ads</a>
-                    <span>&copy;Microsoft 2025</span>
+                    <span>&copy;Microsoft 2026</span>
                 </div>
             </div>
            </footer>
