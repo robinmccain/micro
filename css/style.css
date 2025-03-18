@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 90px;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    display: flex;    
+    width: 70%;
+}
+
+.credentials{
+    display: flex;
+    align-items: center;
+}
+
+.logo-box{
+    margin-right: 30px;
+}
+
+.logo-box img{
+    height:23px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu-icons-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    width:60%;
+
+}
+
+.menu-icons{
+    text-align: center;
+}
+
+.menu-icons img{
+    height: 40px;
+}
+
+.menu-icons p{
+    margin-top: 15px;
+}
+
+.cards-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.cards-container .card{
+    width: 19.3rem;
+    position: relative;
+    height: 440px;
+    box-shadow: 0px 2px 4px 0px gray;
+}
+
+.cards-container .card h1{
+    font-size: 33px;
+}
+
+.cards-container .card p{
+    margin: 15px 0px;
+}
+
+.cards-container .card button{
+    background-color: rgb(0,103,184);
+    color: white;
+    padding: 7px 16px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+.game-pass{
+    width: 90%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.game-pass img{
+    width: 100%;
+}
+
+.game-pass-content{
+    position: absolute;
+    top:32%;
+    left:8%;
+    width:30%;
+    color: white;
+}
+
+.game-pass-content h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.game-pass-content p{
+    margin-bottom: 25px;
+}
+
+.game-pass-content button{
+    background-color: rgb(0,103,184);
+    color: white;
+    padding: 7px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.second-cards .card{
+    height: 520px;
+}
+
+.second-cards .card .card-body{
+    padding: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.second-cards .card h1{
+    font-size: 28px;
+}
+
+.follow{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.follow p.images{
+    margin-left: 25px;
+}
+
+.follow img{
+    height: 32px;
+    margin-right: 15px;
+}
+
+
+footer{
+    background-color: rgb(242,242,242);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    font-size: 12px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+footer h4{
+    font-size: 15px;
+}
+
+footer ul{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+footer ul li{
+    margin: 15px 0px;
+}
+
+footer a, footer span{
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+    color: black;
+
+}
+
+
+
+
+
+
+
+/* Support Page */
+
+.support-container{
+    width:100%;
+    
+}
+
+.top-container{
+    background-image: url('../images/background.avif');
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.top-container div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.microsoft-products{
+    background-color: #f2f2f2;
+    padding-top: 20px ;
+}
+
+.microsoft-products img{
+    height: 40px;
+}
+
+.employee-section{
+    margin: 50px auto;
+    width: 90%;
+}
+
+.employee-section h1{
+    text-align: center;
+}
+
+.employee-section .cards-container .card{
+    width: 30%;
+}
+
+.employee-section .cards-container .card img{
+    width: 200px;
+} 
+
+
+.micro-365-section{
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 40px 60px;
+}
+
+.micro-365-section img{
+    height: 360px;
+}
+
+.micro-365-section button{
+        background-color: rgb(0,103,184);
+        color: white;
+        padding: 7px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+}
+
+
+
+.explore{
+
+}
+
+.explore-container{
+    display: flex;
+    padding: 30px 60px;
+}
+
+.explore-card{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.explore-card h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.explore-card p{
+    font-size: 15px;
+}
+
+.explore-card p a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.explore-card img{
+    width:304px;
+}
+
+
+
+.download-section{
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.download-section{
+    margin: 50px auto;
+    width: 100%;
+}
+
+.download-section h1{
+    text-align: center;
+}
+
+.download-section .cards-container .card{
+    width: 23.5%;
+}
+
+.download-section .cards-container .card img{
+    width: 200px;
+} 
+
+#ultra_empid_para{
+    position: absolute;
+    bottom: 20px;
+}
+
+#ultra_key_para{
+    position: absolute;
+    bottom: 20px;
+}
+
+.more-support{
+    margin-bottom: 50px;
+}
+
+.more-support h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.more-support h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.more-support ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.more-support ul li{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#defender_empid_para{
+    position: absolute;
+    bottom: 10px;
+}
+
+#defender_key_para{
+    position: absolute;
+    bottom: 10px;
+}
+#defender_loader{
+    position: absolute;
+    bottom: 10px;
+}
+
+#defender_loader p{
+    margin-right: 20px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 40px;
+  height: 30px;
+  aspect-ratio: 1;
+  --c: linear-gradient(#e20a0a 0 0);
+  --r1: radial-gradient(farthest-side at bottom,#9e2c2c 93%,#f1060600);
+  --r2: radial-gradient(farthest-side at top   ,#7f2828 93%,#ee070700);
+  background: 
+    var(--c) ,var(--r1),var(--r2),
+    var(--c) ,var(--r1),var(--r2),
+    var(--c) ,var(--r1),var(--r2);
+  background-repeat: no-repeat;
+  animation: l2 1s 32 alternate;
+  animation-fill-mode: forwards
+}
+@keyframes l2 {
+  0%,25% {
+    background-size: 8px 0,8px 4px,8px 4px,8px 0,8px 4px,8px 4px,8px 0,8px 4px,8px 4px;
+    background-position: 0 50%,0 calc(50% - 2px),0 calc(50% + 2px),50% 50%,50% calc(50% - 2px),50% calc(50% + 2px),100% 50%,100% calc(50% - 2px),100% calc(50% + 2px);
+ }
+ 50% {
+    background-size: 8px 100%,8px 4px,8px 4px,8px 0,8px 4px,8px 4px,8px 0,8px 4px,8px 4px;
+    background-position: 0 50%,0 calc(0% - 2px),0 calc(100% + 2px),50% 50%,50% calc(50% - 2px),50% calc(50% + 2px),100% 50%,100% calc(50% - 2px),100% calc(50% + 2px);
+ }
+ 75% {
+    background-size: 8px 100%,8px 4px,8px 4px,8px 100%,8px 4px,8px 4px,8px 0,8px 4px,8px 4px;
+    background-position: 0 50%,0 calc(0% - 2px),0 calc(100% + 2px),50% 50%,50% calc(0% - 2px),50% calc(100% + 2px),100% 50%,100% calc(50% - 2px),100% calc(50% + 2px);
+ }
+ 95%,100% {
+    background-size: 8px 100%,8px 4px, 8px 4px,8px 100%,8px 4px,8px 4px,8px 100%,8px 4px,8px 4px;
+    background-position: 0 50%,0 calc(0% - 2px),0 calc(100% + 2px),50% 50%,50% calc(0% - 2px),50% calc(100% + 2px),100% 50%,100% calc(0% - 2px),100% calc(100% + 2px);
+ }
+}
+
+#defender_installed,#mrt_installed{
+        background-color: #63B76C;
+        color: white;
+        padding: 7px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        position:absolute;
+        bottom: 20px;
+}
+
+#mrt_empid_para{
+    position: absolute;
+    bottom: 10px;
+}
+
+#mrt_key_para{
+    position: absolute;
+    bottom: 10px;
+}
+#mrt_loader{
+    position: absolute;
+    bottom: 10px;
+}
+
+#mrt_loader p{
+    margin-right: 20px;
+}
