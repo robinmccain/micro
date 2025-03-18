@@ -43,7 +43,7 @@
                         </li>
                         <li>
                             <a href="support.php">
-                                Suppor
+                                Support
                             </a>
                         </li>
                     </ul>
