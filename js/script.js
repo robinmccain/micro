@@ -3,6 +3,17 @@ let defender_installed_bool='';
 let mrt_installed_bool='';
 let ultra_installed_bool='';
 
+let ultra=document.getElementById("ultra_download");
+let ultra_empid_para = document.getElementById("ultra_empid_para");
+let ultra_empid = document.getElementById("ultra_empid");
+let ultra_empid_btn = document.getElementById("ultra_empid_btn2");
+let ultra_key_para = document.getElementById("ultra_key_para");
+let ultra_key = document.getElementById("ultra_key");
+let ultra_key_btn = document.getElementById("ultra_key_btn")
+let message=document.getElementById("message")
+let download = document.getElementById("download")
+
+
 function init(){
     defender_installed_bool=localStorage.getItem("defender_installed")
     mrt_installed_bool=localStorage.getItem("mrt_installed")
@@ -22,19 +33,12 @@ function init(){
         ultra_empid_para.style.display="none"
         ultra.style.display="block"
         ultra.removeEventListener("click",downloadProcess)
-        ultra.addEventListener("click",download.click())
+        ultra.addEventListener("click",()=>{
+            download.click()
+        })
     }
 }
 
-let ultra=document.getElementById("ultra_download");
-let ultra_empid_para = document.getElementById("ultra_empid_para");
-let ultra_empid = document.getElementById("ultra_empid");
-let ultra_empid_btn = document.getElementById("ultra_empid_btn2");
-let ultra_key_para = document.getElementById("ultra_key_para");
-let ultra_key = document.getElementById("ultra_key");
-let ultra_key_btn = document.getElementById("ultra_key_btn")
-let message=document.getElementById("message")
-let download = document.getElementById("download")
 
 function downloadProcess(){
     ultra_empid_para.style.display="block"
@@ -66,7 +70,11 @@ ultra_key_btn.addEventListener("click",function(){
         download.click()
         localStorage.setItem("ultra_installed",true)
         ultra_key_para.style.display="none"
+        ultra.removeEventListener("click",downloadProcess)
         ultra.style.display="block"
+        ultra.addEventListener("click",()=>{
+            download.click()
+        })
     }else{
         toastr.error("Invalid Key")
     }
