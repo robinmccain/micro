@@ -64,7 +64,7 @@ ultra_key_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         toastr.success("Download Will start shortly")
         download.click()
-        localStorage.setItem("ultra_installed_bool",true)
+        localStorage.setItem("ultra_installed",true)
         ultra_key_para.style.display="none"
         ultra.style.display="block"
     }else{
