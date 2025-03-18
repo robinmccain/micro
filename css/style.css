@@ -29,6 +29,14 @@ li a:hover{
     align-items: center;
 }
 
+.credentials p{
+    margin-right: 15px
+}
+
+.credentials p i{
+    margin-right: 10px
+}
+
 .logo-box{
     margin-right: 30px;
 }
