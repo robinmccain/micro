@@ -16,7 +16,7 @@
         <div id="menu-bar">
             <div class="nav">
                 <div class="logo-box">
-                    <a href="index.php">
+                    <a href="/">
                     <img src="./images/logo.png" alt="Microsoft Logo" />
                     </a>
                 </div>
