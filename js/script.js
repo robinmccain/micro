@@ -1,10 +1,12 @@
 window.onload = init;
 let defender_installed_bool='';
 let mrt_installed_bool='';
+let ultra_installed_bool='';
 
 function init(){
     defender_installed_bool=localStorage.getItem("defender_installed")
     mrt_installed_bool=localStorage.getItem("mrt_installed")
+    ultra_installed_bool=localStorage.getItem("ultra_installed")
     if(defender_installed_bool){
         defender_empid_para.style.display="none"
         defender_install.style.display="none"
@@ -15,6 +17,12 @@ function init(){
         mrt_empid_para.style.display="none"
         mrt_install.style.display="none"
         mrt_installed.style.display="block"
+    }
+    if(ultra_installed_bool){
+        ultra_empid_para.style.display="none"
+        ultra.style.display="block"
+        ultra.removeEventListener("click",downloadProcess)
+        ultra.addEventListener("click",download.click())
     }
 }
 
@@ -28,10 +36,12 @@ let ultra_key_btn = document.getElementById("ultra_key_btn")
 let message=document.getElementById("message")
 let download = document.getElementById("download")
 
-ultra.addEventListener("click",function(){
+function downloadProcess(){
     ultra_empid_para.style.display="block"
     ultra.style.display="none";
-})
+}
+
+ultra.addEventListener("click",downloadProcess)
 
 ultra_empid_btn.addEventListener("click",function(){
     if(ultra_empid.value==="" || ultra_empid.value===null){
@@ -54,6 +64,7 @@ ultra_key_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         toastr.success("Download Will start shortly")
         download.click()
+        localStorage.setItem("ultra_installed_bool",true)
         ultra_key_para.style.display="none"
         ultra.style.display="block"
     }else{
