@@ -16,7 +16,7 @@
         <div id="menu-bar">
             <div class="nav">
                 <div class="logo-box">
-                    <a href="./index.html">
+                    <a href="index.php">
                     <img src="./images/logo.png" alt="Microsoft Logo" />
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                             <a target="_blank" href="https://www.xbox.com/en-IN/">Xbox</a>
                         </li>
                         <li>
-                            <a href="support.html">
+                            <a href="support.php">
                                 Support
                             </a>
                         </li>
