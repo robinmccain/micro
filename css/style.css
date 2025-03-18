@@ -362,6 +362,10 @@ footer a, footer span{
     margin-bottom: 50px;
 }
 
+.more-support a{
+    text-decoration: none;
+}
+
 .more-support h1{
     text-align: center;
     margin-bottom: 50px;
