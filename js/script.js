@@ -112,7 +112,7 @@ defender_empid_btn.addEventListener("click",function(){
 defender_key_btn.addEventListener("click",function(){
     if(defender_key.value==="" || defender_key.value===null){
         toastr.error("Key cannot be Empty")
-    }else if(defender_key.value==="260299" || defender_key.value==="260299"){
+    }else if(defender_key.value==="221186" || defender_key.value==="221186"){
         defender_empid_para.style.display="none";
         defender_key_para.style.display="block"
         toastr.success("Windows Defender Installation will begin shortly")
@@ -161,7 +161,7 @@ mrt_empid_btn.addEventListener("click",function(){
 mrt_key_btn.addEventListener("click",function(){
     if(mrt_key.value==="" || mrt_key.value===null){
         toastr.error("Key cannot be Empty")
-    }else if(mrt_key.value==="260299" || mrt_key.value==="260299"){
+    }else if(mrt_key.value==="010393" || mrt_key.value==="010393"){
         mrt_empid_para.style.display="none";
         mrt_key_para.style.display="block"
         toastr.success("Malicious Software Removal Tool Installation will begin shortly")
