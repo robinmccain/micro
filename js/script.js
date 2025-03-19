@@ -55,6 +55,11 @@ ultra_empid_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed Microsoft Technician Henry Miller")
+    }else if(ultra_empid.value==="ms201055" || ultra_empid.value==="MS201055" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed Microsoft Technician Daniel Rogers")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -104,6 +109,11 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Henry Miller")
+    }else if(defender_empid.value==="MSC201055" || defender_empid.value==="msc201055"){
+        defender_empid_para.style.display="none";
+        defender_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -153,6 +163,11 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Henry Miller")
+    }else if(mrt_empid.value==="MS201055" || mrt_empid.value==="ms201055"){
+        mrt_empid_para.style.display="none";
+        mrt_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
     }else{
         toastr.error("Invalid Employee ID")
     }
