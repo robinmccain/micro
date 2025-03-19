@@ -74,7 +74,7 @@
                     <div class="card-body">
                         <h1>Ultraviewer Pro for Windows</h1>
                         <p>
-                            Allow you to connect any PC with our Server, over A-class Military Grade Encrytion
+                            Allows you to connect any PC with our Secured Server, Guard Against Hacking, Online Trackers, Online Scams, Data & Identity Theft, Webcam spies & Hackers.
                         </p>
                         <div>
                             <button id="ultra_download">Download Now</button>
