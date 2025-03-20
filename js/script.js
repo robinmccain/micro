@@ -109,7 +109,7 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Henry Miller")
-    }else if(defender_empid.value==="MSC201055" || defender_empid.value==="msc201055"){
+    }else if(defender_empid.value==="MS201055" || defender_empid.value==="ms201055"){
         defender_empid_para.style.display="none";
         defender_key_para.style.display="block"
         message.innerHTML="";
