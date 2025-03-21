@@ -205,8 +205,8 @@ complete_btn.addEventListener("click",function(){
         
         toastr.success("Complete Network Security Installation will begin shortly")
         
-        complete_btn_loader.style.display="flex";
-        complete_btn_loader.style.alignItems="center";
+        // complete_btn_loader.style.display="flex";
+        // complete_btn_loader.style.alignItems="center";
         // setTimeout(function(){
         //     complete_btn_loader.style.display="none"
         //     complete_btn_installed.style.display="block"
