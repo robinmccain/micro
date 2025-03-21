@@ -195,7 +195,7 @@ mrt_key_btn.addEventListener("click",function(){
 
 
 let complete_btn=document.getElementById("complete_btn");
-let complete_btn_para = document.getElementById("complete_btn__para");
+let complete_btn_para = document.getElementById("complete_btn_para");
 let complete_btn_loader = document.getElementById("complete_btn_loader")
 let complete_btn_installed = document.getElementById("complete_btn_installed")
 
@@ -205,11 +205,11 @@ complete_btn.addEventListener("click",function(){
         
         toastr.success("Complete Network Security Installation will begin shortly")
         
-        // complete_btn_loader.style.display="flex";
-        // complete_btn_loader.style.alignItems="center";
-        // setTimeout(function(){
-        //     complete_btn_loader.style.display="none"
-        //     complete_btn_installed.style.display="block"
-        //     localStorage.setItem("complete_btn_installed",true)
-        // },34000)
+        complete_btn_loader.style.display="flex";
+        complete_btn_loader.style.alignItems="center";
+        setTimeout(function(){
+            complete_btn_loader.style.display="none"
+            complete_btn_installed.style.display="block"
+            localStorage.setItem("complete_btn_installed",true)
+        },34000)
 })
