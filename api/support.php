@@ -347,7 +347,7 @@
                             Network Guardian: Always Vigilant, Securing Your Network, Protecting Your Future.
                         </p>
                         <div>
-                            <p style="font-weight: bolder;color: green">USD 999</p>
+                            <p  style="position:absolute;bottom:20px;font-weight: bolder;color: green">USD $999</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
