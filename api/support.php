@@ -262,9 +262,9 @@
 
         <!-- Securities Download Section-->
         <div class="download-section">
-            <h1>Our Securities</h1>
+            <h1>Advanced Securities</h1>
 
-        <div class="second-cards" style="margin: 50px auto;">
+        <!-- <div class="second-cards" style="margin: 50px auto;">
             <div class="cards-container" style="width:90%;">
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/cybersecurity.webp');color:white;height: 160px;background-size: contain;
@@ -333,13 +333,13 @@
 
             </div>
            </div>
-
+ -->
            <div class="second-cards" style="margin: 50px auto;">
             <div class="cards-container" style="width: 90%;">
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/cybersecurity.webp');color:white;height: 160px;background-size: contain;
                     position: relative;">
-                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">CyberSecurity</h3>
+                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Network Guardian</h3>
                     </div>
                     <div class="card-body">
                         <h1>Network Guardian</h1>
@@ -355,7 +355,7 @@
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/cybersecurity-pro.webp');color:black;height: 160px;background-size: contain;
                     position: relative;">
-                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">CyberSecurity<br />Pro</h3>
+                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Secure Encryption</h3>
                     </div>
                     <div class="card-body">
                         
@@ -372,7 +372,7 @@
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/firewall-essential.png');color:white;height: 160px;background-size: contain;
                     position: relative;">
-                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Firewall<br />Essentials</h3>
+                        <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Internet Security</h3>
                     </div>      
                     <div class="card-body">
                         <h1>Internet Security</h1>
@@ -388,7 +388,7 @@
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/firewall-pro.png');color:white;height: 160px;background-size: contain;
                     position: relative;">
-                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Firewall Pro</h3>
+                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Total Network Security</h3>
                     </div>
                     <div class="card-body">
                         <h1>Total Network Security</h1>
