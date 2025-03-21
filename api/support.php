@@ -400,7 +400,12 @@
                         </p>
                         <div>
                             <p  style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $4499.99</p>
-                            <p><a><button>Buy Now</button></a></p>
+                            <p id="complete_btn_para"><a><button id="complete_btn">Buy Now</button></a></p>
+                            <button id="complete_btn_installed" style="display: none;">Installed</button>
+                            <div style="display: none;" id="complete_btn_loader">
+                                <p style="background-color: rgb(0,103,184);color:white; padding: 10px 15px;">Installing</p> 
+                                <div  class="loader" ></div>
+                            </div>
                         </div>
                     </div>
                 </div>
