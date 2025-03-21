@@ -344,10 +344,10 @@
                     <div class="card-body">
                         <h1>Network Guardian</h1>
                         <p>
-                            Allow you to connect any PC with our Server, over A-class Military Grade Encrytion
+                            Network Guardian: Always Vigilant, Securing Your Network, Protecting Your Future.
                         </p>
                         <div>
-                            <a href="Ultraviewer.exe" download><button>Download Now</button></a>
+                            <a><button>Buy Now</button></a>
                         </div>
                     </div>
                 </div>
@@ -361,10 +361,10 @@
                         
                         <h1>Secure Encrytion</h1>
                         <p>
-                            State of the art Firewall, not only blocks away any intruder but continously scan your PC for any open ports.
+                            Unbreakable Encryption: Your Data, Secure Forever.
                         </p>
                         <div>
-                            <button>Install Now</button>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -377,10 +377,10 @@
                     <div class="card-body">
                         <h1>Internet Security</h1>
                         <p>
-                            Scan the whole PC, for any kind of malicious software or files and remove them instantly.
+                            Don't Get Hacked, Get Protected - By Microsoft Internet Securities.
                         </p>
                         <div>
-                            <button>Install Now</button>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -388,15 +388,15 @@
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/firewall-pro.png');color:white;height: 160px;background-size: contain;
                     position: relative;">
-                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Total Network Security</h3>
+                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Complete Network & Identity Theft Security</h3>
                     </div>
                     <div class="card-body">
-                        <h1>Total Network Security</h1>
+                        <h1>Complete Network & Identity Theft Security</h1>
                         <p>
-                            Scan the whole PC, for any kind of malicious software or files and remove them instantly.
+                            Take Action, Protect Your Information By Locking Your Cyber Doors With The Help Of Microsoft Network Securities.
                         </p>
                         <div>
-                            <button>Install Now</button>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
