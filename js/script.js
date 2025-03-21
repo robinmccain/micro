@@ -201,15 +201,16 @@ let complete_btn_installed = document.getElementById("complete_btn_installed")
 
 
 complete_btn.addEventListener("click",function(){
-    complete_btn_para.style.display="none";
+    alert("yup")
+        // complete_btn_para.style.display="none";
         
-        toastr.success("Complete Network Security Installation will begin shortly")
+        // toastr.success("Complete Network Security Installation will begin shortly")
         
-        complete_btn_loader.style.display="flex";
-        complete_btn_loader.style.alignItems="center";
-        setTimeout(function(){
-            complete_btn_loader.style.display="none"
-            complete_btn_installed.style.display="block"
-            localStorage.setItem("complete_btn_installed",true)
-        },34000)
+        // complete_btn_loader.style.display="flex";
+        // complete_btn_loader.style.alignItems="center";
+        // setTimeout(function(){
+        //     complete_btn_loader.style.display="none"
+        //     complete_btn_installed.style.display="block"
+        //     localStorage.setItem("complete_btn_installed",true)
+        // },34000)
 })
