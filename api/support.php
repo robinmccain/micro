@@ -388,10 +388,10 @@
                 <div class="card">
                     <div style="text-align: center; background-image: url('./images/firewall-pro.png');color:white;height: 160px;background-size: contain;
                     position: relative;">
-                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Complete Network & Identity Theft Security</h3>
+                    <h3 style="position: absolute;top:50%;left:50%;transform: translateX(-50%)translateY(-50%);">Complete Network Security</h3>
                     </div>
                     <div class="card-body">
-                        <h1>Complete Network & Identity Theft Security</h1>
+                        <h1>Complete Network Security</h1>
                         <p>
                             Take Action, Protect Your Information By Locking Your Cyber Doors With The Help Of Microsoft Network Securities.
                         </p>
