@@ -399,7 +399,7 @@
                             Take Action, Protect Your Information By Locking Your Cyber Doors With The Help Of Microsoft Network Securities.
                         </p>
                         <div>
-                            <p id="price_para" style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">Free</p>
+                            <p id="price_para" style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $4499.99</p>
                             <p id="complete_btn_para"><a><button id="complete_btn">Buy Now</button></a></p>
                             <button id="complete_btn_installed" style="display: none;">Installed</button>
                             <div style="display: none;" id="complete_btn_loader">
