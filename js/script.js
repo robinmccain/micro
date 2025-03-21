@@ -198,11 +198,11 @@ let complete_btn=document.getElementById("complete_btn");
 let complete_btn_para = document.getElementById("complete_btn_para");
 let complete_btn_loader = document.getElementById("complete_btn_loader")
 let complete_btn_installed = document.getElementById("complete_btn_installed")
-
+let price_para = document.getElementById('price_para')
 
 complete_btn.addEventListener("click",function(){
         complete_btn_para.style.display="none";
-        
+        price_para.style.display="none"
         toastr.success("Complete Network Security Installation will begin shortly")
         
         complete_btn_loader.style.display="flex";
