@@ -346,8 +346,8 @@
                         <p>
                             Network Guardian: Always Vigilant, Securing Your Network, Protecting Your Future.
                         </p>
-                        <div style="display: flex; justify-content: space-between;align-content: center;">
-                            <p>USD 999</p>
+                        <div>
+                            <p style="font-weight: bolder;color: green">USD 999</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
@@ -364,9 +364,8 @@
                         <p>
                             Unbreakable Encryption: Your Data, Secure Forever.
                         </p>
-                        <div style="display: flex; justify-content: space-between;align-content: center;">
-                            <p>USD 1499</p>
-                            <p><a><button>Buy Now</button></a></p>
+                        <div>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -381,9 +380,8 @@
                         <p>
                             Don't Get Hacked, Get Protected - By Microsoft Internet Securities.
                         </p>
-                        <div style="display: flex; justify-content: space-between;align-content: center;">
-                            <p>USD 1999</p>
-                            <p><a><button>Buy Now</button></a></p>
+                        <div>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -398,9 +396,8 @@
                         <p>
                             Take Action, Protect Your Information By Locking Your Cyber Doors With The Help Of Microsoft Network Securities.
                         </p>
-                        <div style="display: flex; justify-content: space-between;align-content: center;">
-                            <p>USD 4499</p>
-                            <p><a><button>Buy Now</button></a></p>
+                        <div>
+                            <button>Buy Now</button>
                         </div>
                     </div>
                 </div>
