@@ -347,7 +347,7 @@
                             Network Guardian: Always Vigilant, Securing Your Network, Protecting Your Future.
                         </p>
                         <div>
-                            <p  style="position:absolute;bottom:50px;padding-left:15px;font-weight: bolder;color: green">USD $999.99</p>
+                            <p  style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $999.99</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                             Unbreakable Encryption: Your Data, Secure Forever.
                         </p>
                         <div>
-                            <p  style="position:absolute;bottom:50px;padding-left:15px;font-weight: bolder;color: green">USD $1999.00</p>
+                            <p  style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $1999.00</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                             Don't Get Hacked, Get Protected - By Microsoft Internet Securities.
                         </p>
                         <div>
-                            <p  style="position:absolute;bottom:50px;padding-left:15px;font-weight: bolder;color: green">USD $1499.99</p>
+                            <p  style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $1499.99</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
@@ -399,7 +399,7 @@
                             Take Action, Protect Your Information By Locking Your Cyber Doors With The Help Of Microsoft Network Securities.
                         </p>
                         <div>
-                            <p  style="position:absolute;bottom:50px;padding-left:15px;font-weight: bolder;color: green">USD $4499.99</p>
+                            <p  style="position:absolute;bottom:50px;padding-left:5px;font-weight: bolder;color: green">USD $4499.99</p>
                             <p><a><button>Buy Now</button></a></p>
                         </div>
                     </div>
