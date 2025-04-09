@@ -4,7 +4,7 @@
                 <div>
                     <h4>What's new</h4>
                     <ul>
-                        <li>Surface Pro</li>
+                        <li>Surface Pros</li>
                         <li>Surface Laptop</li>
                         <li>Microsoft Copilot</li>
                         <li>Microsoft 365</li>
