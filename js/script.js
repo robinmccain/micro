@@ -119,9 +119,9 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
-    }else if(ultra_empid.value==="mshq201002" || ultra_empid.value==="MSHQ201002" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+    }else if(defender_empid.value==="MSHQ201002" || defender_empid.value==="mshq201002"){
+        defender_empid_para.style.display="none";
+        defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else{
@@ -178,9 +178,9 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
-    }else if(ultra_empid.value==="mshq201002" || ultra_empid.value==="MSHQ201002" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+    }else if(mrt_empid.value==="MSHQ201002" || mrt_empid.value==="mshq201002"){
+        mrt_empid_para.style.display="none";
+        mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else{
