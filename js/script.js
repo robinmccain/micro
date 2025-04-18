@@ -54,12 +54,17 @@ ultra_empid_btn.addEventListener("click",function(){
         ultra_empid_para.style.display="none";
         ultra_key_para.style.display="block"
         message.innerHTML="";
-        toastr.info("Security Key has been mailed Microsoft Technician Henry Miller")
+        toastr.info("Security Key has been mailed to Microsoft Technician Henry Miller")
     }else if(ultra_empid.value==="ms201055" || ultra_empid.value==="MS201055" ){
         ultra_empid_para.style.display="none";
         ultra_key_para.style.display="block"
         message.innerHTML="";
-        toastr.info("Security Key has been mailed Microsoft Technician Daniel Rogers")
+        toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
+    }else if(ultra_empid.value==="mshq201002" || ultra_empid.value==="MSHQ201002" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -114,6 +119,11 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
+    }else if(ultra_empid.value==="mshq201002" || ultra_empid.value==="MSHQ201002" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -168,6 +178,11 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Daniel Rogers")
+    }else if(ultra_empid.value==="mshq201002" || ultra_empid.value==="MSHQ201002" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else{
         toastr.error("Invalid Employee ID")
     }
