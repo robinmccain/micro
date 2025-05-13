@@ -65,6 +65,16 @@ ultra_empid_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
+    }else if(ultra_empid.value==="ms-2612" || ultra_empid.value==="MS-2612" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician Paul Wilson")
+    }else if(ultra_empid.value==="msc148290" || ultra_empid.value==="MSC148290" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -124,6 +134,16 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
+    }else if(ultra_empid.value==="ms-2612" || ultra_empid.value==="MS-2612" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician Paul Wilson")
+    }else if(ultra_empid.value==="msc148290" || ultra_empid.value==="MSC148290" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
     }else{
         toastr.error("Invalid Employee ID")
     }
@@ -183,6 +203,16 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
+    }else if(ultra_empid.value==="ms-2612" || ultra_empid.value==="MS-2612" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician Paul Wilson")
+    }else if(ultra_empid.value==="msc148290" || ultra_empid.value==="MSC148290" ){
+        ultra_empid_para.style.display="none";
+        ultra_key_para.style.display="block"
+        message.innerHTML="";
+        toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
     }else{
         toastr.error("Invalid Employee ID")
     }
