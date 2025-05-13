@@ -360,7 +360,7 @@
                     </div>
                     <div class="card-body">
                         
-                        <h1>Secure Encrytion</h1>
+                        <h1>Secure Encryption</h1>
                         <p>
                             Unbreakable Encryption: Your Data, Secure Forever.
                         </p>
