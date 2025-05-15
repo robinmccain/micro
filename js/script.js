@@ -135,13 +135,13 @@ defender_empid_btn.addEventListener("click",function(){
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else if(defender_empid.value==="ms-2612" || defender_empid.value==="MS-2612" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+        defender_empid_para.style.display="none";
+        defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Paul Wilson")
     }else if(defender_empid.value==="msc148290" || defender_empid.value==="MSC148290" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+        defender_empid_para.style.display="none";
+        defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
     }else{
@@ -204,13 +204,13 @@ mrt_empid_btn.addEventListener("click",function(){
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
     }else if(mrt_empid.value==="ms-2612" || mrt_empid.value==="MS-2612" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+        mrt_empid_para.style.display="none";
+        mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician Paul Wilson")
     }else if(mrt_empid.value==="msc148290" || mrt_empid.value==="MSC148290" ){
-        ultra_empid_para.style.display="none";
-        ultra_key_para.style.display="block"
+        mrt_empid_para.style.display="none";
+        mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
     }else{
