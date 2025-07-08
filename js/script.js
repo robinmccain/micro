@@ -65,7 +65,7 @@ ultra_empid_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
-    }else if(ultra_empid.value==="ms-2612" || ultra_empid.value==="MS-2612" ){
+    }/*else if(ultra_empid.value==="ms-2612" || ultra_empid.value==="MS-2612" ){
         ultra_empid_para.style.display="none";
         ultra_key_para.style.display="block"
         message.innerHTML="";
@@ -75,7 +75,7 @@ ultra_empid_btn.addEventListener("click",function(){
         ultra_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
-    }else{
+    }*/else{
         toastr.error("Invalid Employee ID")
     }
 })
@@ -134,7 +134,7 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
-    }else if(defender_empid.value==="ms-2612" || defender_empid.value==="MS-2612" ){
+    }/*else if(defender_empid.value==="ms-2612" || defender_empid.value==="MS-2612" ){
         defender_empid_para.style.display="none";
         defender_key_para.style.display="block"
         message.innerHTML="";
@@ -144,7 +144,7 @@ defender_empid_btn.addEventListener("click",function(){
         defender_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
-    }else{
+    }*/else{
         toastr.error("Invalid Employee ID")
     }
 })
@@ -203,7 +203,7 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician James Barker")
-    }else if(mrt_empid.value==="ms-2612" || mrt_empid.value==="MS-2612" ){
+    }/*else if(mrt_empid.value==="ms-2612" || mrt_empid.value==="MS-2612" ){
         mrt_empid_para.style.display="none";
         mrt_key_para.style.display="block"
         message.innerHTML="";
@@ -213,7 +213,7 @@ mrt_empid_btn.addEventListener("click",function(){
         mrt_key_para.style.display="block"
         message.innerHTML="";
         toastr.info("Security Key has been mailed to Microsoft Technician John Marsh")
-    }else{
+    }*/else{
         toastr.error("Invalid Employee ID")
     }
 })
